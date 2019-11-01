@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+  font-size: 62.5%;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  height: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.Display {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 80rem;
+  background-color: lightgreen;
+  border: 2px solid hotpink;
+}
+
+.Display .info {
+  font-size: 2rem;
+  width: 25%;
+  padding: 1rem;  
+  border: 2px solid greenyellow;
+  color: red;
+}
+
+.Dashboard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: tan;
+}
+.Dashboard button {
+  background-color: peru;
+  color: purple;
+  padding: 0.5rem 1rem;
+  margin: 1rem;
+}
